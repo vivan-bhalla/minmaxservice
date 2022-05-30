@@ -6,7 +6,7 @@ This is a project for Baraka where we open a connection with a Baraka web socket
 
 #### Prerequisites: 
 1. Please Make sure you jave Java Version 1.8 installed
-2. Make sure you have mcn installed
+2. Make sure you have mvn installed
 3. There should be nothing running on the port 8080 as this application runs on that port
 
 ## How To Start?

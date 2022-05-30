@@ -12,4 +12,11 @@ This is a project for Baraka where we open a connection with a Baraka web socket
 1. Clone the Project:
     ` git clone https://github.com/vivan-bhalla/minmaxservice.git `
 
-2. 
+2. Run `mvn clean install` in the folder
+
+3. Run `java -jar minmaxservice-0.0.1-SNAPSHOT.jar`. When the websocket is opened, you will receive a `Webwocket opened` message. the service is running.
+
+4. Go to `localhost:8080` and you should see the welcome message
+
+5. To get price of any stock go to `localhost:8080/getprice/{stock}` for example to get the prices of TSLA stock, type `localhost:8080/getprice/TSLA`.
+

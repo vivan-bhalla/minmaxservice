@@ -14,7 +14,9 @@ This is a project for Baraka where we open a connection with a Baraka web socket
 
 2. Run `mvn clean install` in the folder
 
-3. Run `java -jar minmaxservice-0.0.1-SNAPSHOT.jar`. When the websocket is opened, you will receive a `Webwocket opened` message. the service is running.
+3. Run `java -jar minmaxservice-0.0.1-SNAPSHOT.jar`. 
+Note: The jar file will be create in the `target` folder.
+When the websocket is opened, you will receive a `Webwocket opened` message. the service is running.
 
 4. Go to `localhost:8080` and you should see the welcome message
 
